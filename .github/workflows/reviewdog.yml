@@ -4,7 +4,7 @@ jobs:
   staticcheck:
     timeout-minutes: 30
     name: staticcheck
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-26.04
     steps:
       - uses: actions/checkout@v3
       - uses: reviewdog/action-staticcheck@v1
